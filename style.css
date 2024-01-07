@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: ease-in;
+    /*     
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    */
+}
+
+h2{
+    font-size: 72px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    line-height: 95px;
+}
+
+h6{
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*=============================================
+=            Header            =
+=============================================*/
+header {
+    height: 100vh;
+    padding: 50px 100px;
+}
+
+header .banner{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFF;
+    height: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./resources/banner-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .banner h6{
+    padding-bottom: 16px;
+}
+
+/*=====  End of Header  ======*/
+
+
+
+/*=============================================
+=            Main            =
+=============================================*/
+main{
+    padding: 120px 100px;
+}
+
+/*----------  OFF Section  ----------*/
+main section#off {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+main section#off h1{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+main section#off p{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+main section#off h5{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+/*----------  OFF Section End  ----------*/
+
+
+/*----------  Welcome Section  ----------*/
+section#welcome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px 100px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("./resources/Vectorrr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+
+
+}
+
+section#welcome .wel-left h3{
+    font-family: 'Merriweather', serif;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7px;
+}
+
+section#welcome .wel-left p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;    
+}
+section#welcome .wel-left a{
+    
+}
+
+section#welcome .wel-right img{
+    margin-left: 10px;
+}
+
+
+
+/*----------  Welcome Section End  ----------*/
+
+
+
+
+
+/*=====  End of Main  ======*/
+
