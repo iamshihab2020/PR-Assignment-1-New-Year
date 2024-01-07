@@ -202,6 +202,69 @@ button.joinBtn:hover{
 
 
 
+/*----------  Coming Soon Section  ----------*/
+section#coming{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 120px 0;
+    
+}
+
+h5.h5Title{
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h2.h2Header{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+p.paraP{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+section#coming .come-middle {
+    border-radius: 50%;
+    border: 15px solid #F00;
+    background: red;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+section#coming .come-middle img{
+    border: 30px #ffff solid;
+    border-radius: 50%;
+}
+
+section#coming .come-right h4{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+section#coming .come-right p{
+    margin-top: 16px;
+    margin-bottom: 43px;
+}
+/*----------  Coming Soon Section End  ----------*/
+
+
+
+
 
 /*=====  End of Main  ======*/
 
