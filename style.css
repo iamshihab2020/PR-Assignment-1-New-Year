@@ -279,7 +279,7 @@ section#holiday .holiday-header h6#title{
     font-size: 24px;
     font-weight: 500;
     color: #070211;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 section#holiday .holiday-header h1{
@@ -348,6 +348,46 @@ section#s{
 }
 
 /*----------  Holidays Section End  ----------*/
+
+
+
+/*----------  Gift Card Section  ----------*/
+section#giftCard{
+    margin-bottom: 120px;
+}
+
+section#giftCard .giftCard-header{
+    padding-right: 400px;
+}
+
+section#giftCard .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px; 
+}
+
+section#giftCard .cards:hover{
+    gap: 34px;
+}
+
+section#giftCard .cards .card{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    margin-top: 48px;
+    transition: 0.3s all;
+    border-radius: 16px;
+}
+
+section#giftCard .cards .card:hover{
+    transform: translateY(-10px); 
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+section#giftCard .cards .card img{
+    height: 100%;
+    width: 100%;
+}
+/*----------  Gift Card Section End  ----------*/
 
 
 
