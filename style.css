@@ -6,12 +6,22 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     transition: .3s all;
-
     /*     
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
     */
 }
+
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #F00;
+}
+
+
 
 h2{
     font-size: 72px;
@@ -137,6 +147,7 @@ section#welcome .wel-left p{
     font-weight: 400;
     line-height: 30px; 
     margin-bottom: 48px;   
+    padding-right: 40px;
 }
 
 section#welcome .wel-left a{
@@ -153,7 +164,10 @@ section#welcome .wel-left a:hover{
 }
 
 section#welcome .wel-right img{
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    height: 464.654px;
+    width: 349.165px;
+
 }
 
 /*----------  Welcome Section End  ----------*/
@@ -394,7 +408,8 @@ section#newsletter form input#email{
     width: 430px;
     border: none;
     color: #070211;
-    outline: none;
+    outline: invert;
+    outline-color: #F00;
     border-radius: 50px 0px 0px 50px;
     font-size: 18px;
     transition: .3s all;
@@ -427,9 +442,6 @@ section#newsletter input#subBtn:hover{
 }
 
 
-section#newsletter{}
-
-section#newsletter{}
 /*----------  Newsletter Section End  ----------*/
 
 
