@@ -268,7 +268,8 @@ section#coming .come-right p{
 /*----------  Holidays Section  ----------*/
 section#holiday {
     margin-bottom: 120px;
-    height: 953.435px;
+    height:1000px;
+    /* height: 100%; */
     position: relative;
 }
 section#holiday .holiday-header {
@@ -300,52 +301,36 @@ section#holiday .holiday-header p{
 
 section#holiday .holiday-middle{
     position: relative;
-    height: 100%;
-    /*width: 50%;
-    margin-left: auto; */
-    display: flex;
-    justify-content: right;
-    align-items: flex-start;
+    height: auto;
 }
 section#holiday .holiday-middle img{
-    position: relative;
+    position: absolute;
+
 }
 section#holiday .holiday-middle img#girImg{
-    left: 307px;
+    position: absolute;
+    right: 0;
     top: 0;
 }
 
-section#holiday .holiday-middle img#dis{
-    right: 272px;
-    top: 7%;
-}
-
-section#holiday .holiday-bottom{
-    /* position: relative; */
-    height: 100%;
-}
-
-section#holiday .holiday-bottom img{
-    position: relative;
-}
-
-section#holiday .holiday-bottom img#up{
-    z-index: 200;
-    height: 550px;
-    top: -92%;
-    left: 25px;
-}
-
-section#holiday .holiday-bottom img#down{
-    position: relative;
-    width: 100%;
-    top: -113%;
+section#holiday .holiday-middle img#up{
     z-index: 100;
+    top: 100px;
+    left: -2px;
+    height: 577.961px;
+
+}
+section#holiday .holiday-middle img#dis{
+    z-index: 2000;
+    right: 275px;
+    top: 54px;
 }
 
-section#s{
-    position: relative; 
-    top: 420px;
+section#holiday .holiday-middle img#down{
+    width: 100%;
+    height: 229px;
+    z-index: 10;
+    top: 432px;
 }
 
 /*----------  Holidays Section End  ----------*/
