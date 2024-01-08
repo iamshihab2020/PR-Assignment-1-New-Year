@@ -453,3 +453,74 @@ section#newsletter{}
 
 /*=====  End of Main  ======*/
 
+
+
+
+
+/*=============================================
+=            Footer             =
+=============================================*/
+footer{
+    background: #070211;
+    padding: 120px 100px;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+}
+
+footer hr{
+    margin: 50px 0;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+}
+
+footer p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+footer a{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    transition: .3s all;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer .foot-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+footer .foot-content #contact a{
+    display: flex;
+    align-items: center;
+}
+footer .foot-content #contact a img{
+    padding-right: 8px;
+}
+
+footer .foot-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+footer .foot-center a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 12px;
+    padding: 5px 11px;
+    border-radius: 50%;
+    background: transparent;
+}
+
+footer .foot-center a:hover{
+    box-shadow: #F00 0px 35px 30px -20px;
+}
+
+/*=====  End of Footer   ======*/
+
