@@ -5,7 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    transition: ease-in;
+    transition: .3s all;
+
     /*     
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
@@ -352,9 +353,7 @@ section#s{
 
 
 /*----------  Gift Card Section  ----------*/
-section#giftCard{
-    margin-bottom: 120px;
-}
+
 
 section#giftCard .giftCard-header{
     padding-right: 400px;
@@ -363,12 +362,10 @@ section#giftCard .giftCard-header{
 section#giftCard .cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px; 
+    gap: 30px; 
 }
 
-section#giftCard .cards:hover{
-    gap: 34px;
-}
+
 
 section#giftCard .cards .card{
     height: 100%;
@@ -389,6 +386,66 @@ section#giftCard .cards .card img{
 }
 /*----------  Gift Card Section End  ----------*/
 
+
+
+/*----------  Newsletter Section  ----------*/
+section#newsletter{
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin-top: 190px;
+    padding: 80px 200px;
+    border-radius: 16px;
+}
+
+section#newsletter form{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#newsletter form input#email{
+    padding: 25px 30px;
+    width: 430px;
+    border: none;
+    color: #070211;
+    outline: none;
+    border-radius: 50px 0px 0px 50px;
+    font-size: 18px;
+    transition: .3s all;
+}
+
+
+section#newsletter form input#email::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+
+section#newsletter input#subBtn{
+    padding: 23.4px 56px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 0px 50px 50px 00px;
+    background: #F00;
+    cursor: pointer;
+    transition: .3s all;
+}
+section#newsletter input#subBtn:hover{
+    background: rgb(189, 0, 0)
+
+}
+
+
+section#newsletter{}
+
+section#newsletter{}
+/*----------  Newsletter Section End  ----------*/
 
 
 
